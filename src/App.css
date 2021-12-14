@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --claro: #fff;
+  --gris: #e7e9eb;
+  --oscuro: black;
+}
+.App {
+  text-align: center;
+}
+.navheader {
+  color: black !important;
+  background-color: #b8c2d8 !important;
+}
+h1 {
+  text-align: center;
+}
+.flex {
+  display: flex;
+}
+.navbar {
+  background-color: var(--claro);
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--gris);
+}
+.sidebar {
+  width: 14rem;
+  height: calc(100vh - 57px);
+  border-right: 1px solid var(--gris);
+}
+.sidebar ul {
+  list-style: none;
+  padding: 1rem 2rem;
+}
+.sidebar ul li {
+  margin-bottom: 0.3rem;
+}
+.sidebar ul li a {
+  text-decoration: none;
+}
+.sidebar ul li a.active {
+  background-color: var(--gris);
+}
+
+.principal {
+  padding: 0;
+  width: calc(100vw - 15rem);
+  height: calc(100vh - 59px);
+}
